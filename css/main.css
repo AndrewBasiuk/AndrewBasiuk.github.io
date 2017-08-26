@@ -525,14 +525,14 @@ a:visited {
   height: 100vh; }
 
 .skill {
-  display: flex;
-  flex-wrap: wrap;
   height: 100%; }
   .skill-wrap {
     position: relative;
     height: 92%; }
   .skill__item {
     position: relative;
+    float: left;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
