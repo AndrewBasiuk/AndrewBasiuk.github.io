@@ -559,20 +559,26 @@ a:visited {
       margin-top: 8%;
       font: 2.3em Roboto-Black, Arial, sans-serif;
       letter-spacing: 2px;
-      color: #fff; }
+      color: #fff;
+      z-index: 10; }
     .skill-hover__descript {
       margin-top: 5%;
       width: 40%;
       margin: 5% auto 0 auto;
       font: 1.2em PlayfairBold, serif;
       letter-spacing: 2px;
-      color: #fff; }
+      color: #fff;
+      z-index: 10; }
 
 .l-skill {
   margin-top: 30px; }
 
 .skill__icon {
-  font-size: 10em; }
+  font-size: 10em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .html-five {
   font-family: 'html-icon' !important;
