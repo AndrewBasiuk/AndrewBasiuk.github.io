@@ -1222,7 +1222,7 @@ a.to-top {
       margin-right: 0%; }
   .head__nav {
     width: 50%;
-    margin: 5% auto 0 23%; }
+    margin: 5% auto 0 24%; }
   .menu__link {
     height: 25px;
     font-size: 0.8em;
@@ -1239,7 +1239,7 @@ a.to-top {
     background-image: none;
     background-color: #fff; }
   .autor {
-    margin-top: 12%;
+    margin-top: 7%;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -1258,7 +1258,7 @@ a.to-top {
       margin-right: 1%; }
   .head__nav {
     width: 90%;
-    margin: 20% auto 0 auto; }
+    margin: 15% auto 0 auto; }
   .menu__link {
     height: 40px;
     font-size: 1em;
@@ -1274,6 +1274,7 @@ a.to-top {
   .skill-wrap {
     height: 53%; }
   .skill__item {
+    float: none;
     width: 100%;
     height: 250px;
     margin: 0 auto 5px auto; }
