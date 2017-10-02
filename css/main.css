@@ -75,42 +75,36 @@ a:visited {
   src: url("../font/Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Rubik-Bold.woff") format("woff"), url("../font/Rubik-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'Nord';
   src: url("../font/Nord.eot");
   src: url("../font/Nord.eot?#iefix") format("embedded-opentype"), url("../font/Nord.woff") format("woff"), url("../font/Nord.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'Roboto-Black';
   src: url("../font/Roboto-Black.eot");
   src: url("../font/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Black.woff") format("woff"), url("../font/Roboto-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
-
 @font-face {
   font-family: 'Gotham-Bold';
   src: url("../font/GothamPro-Bold.eot");
   src: url("../font/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../font/GothamPro-Bold.woff") format("woff"), url("../font/GothamPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
-
 @font-face {
   font-family: 'PlayfairBold';
   src: url("../font/PlayfairDisplay-Bold.eot");
   src: url("../font/PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../font/PlayfairDisplay-Bold.woff") format("woff"), url("../font/PlayfairDisplay-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
-
 @font-face {
   font-family: 'icomoon';
   src: url("../font/icomoon.eot?slltqm");
   src: url("../font/icomoon.eot?slltqm#iefix") format("embedded-opentype"), url("../font/icomoon.ttf?slltqm") format("truetype"), url("../font/icomoon.woff?slltqm") format("woff"), url("../font/icomoon.svg?slltqm#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -133,7 +127,6 @@ a:visited {
   src: url("../font/html-icon.eot?b9zdnh#iefix") format("embedded-opentype"), url("../font/html-icon.ttf?b9zdnh") format("truetype"), url("../font/html-icon.woff?b9zdnh") format("woff"), url("../font/html-icon.svg?b9zdnh#html-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^=""], [class*=""] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'html-icon';
@@ -156,7 +149,6 @@ a:visited {
   src: url("../font/css-icon.eot?cwj2od#iefix") format("embedded-opentype"), url("../font/css-icon.ttf?cwj2od") format("truetype"), url("../font/css-icon.woff?cwj2od") format("woff"), url("../font/css-icon.svg?cwj2od#css-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'css-icon' !important;
@@ -180,7 +172,6 @@ a:visited {
   src: url("../font/js-icon.eot?xv588m#iefix") format("embedded-opentype"), url("../font/js-icon.ttf?xv588m") format("truetype"), url("../font/js-icon.woff?xv588m") format("woff"), url("../font/js-icon.svg?xv588m#js-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'js-icon' !important;
@@ -204,7 +195,6 @@ a:visited {
   src: url("../font/mobile-icon.eot?nlawqj#iefix") format("embedded-opentype"), url("../font/mobile-icon.ttf?nlawqj") format("truetype"), url("../font/mobile-icon.woff?nlawqj") format("woff"), url("../font/mobile-icon.svg?nlawqj#mobile-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'mobile-icon' !important;
@@ -227,7 +217,6 @@ a:visited {
   src: url("../font/work-icon.eot?zelt52#iefix") format("embedded-opentype"), url("../font/work-icon.ttf?zelt52") format("truetype"), url("../font/work-icon.woff?zelt52") format("woff"), url("../font/work-icon.svg?zelt52#work-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'work-icon' !important;
@@ -250,7 +239,6 @@ a:visited {
   src: url("../font/footer-icon.eot?hx63yp#iefix") format("embedded-opentype"), url("../font/footer-icon.ttf?hx63yp") format("truetype"), url("../font/footer-icon.woff?hx63yp") format("woff"), url("../font/footer-icon.svg?hx63yp#footer-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'footer-icon' !important;
@@ -279,7 +267,6 @@ a:visited {
   src: url("../font/toTop-icon.eot?wxdf2d#iefix") format("embedded-opentype"), url("../font/toTop-icon.ttf?wxdf2d") format("truetype"), url("../font/toTop-icon.woff?wxdf2d") format("woff"), url("../font/toTop-icon.svg?wxdf2d#toTop-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'toTop-icon' !important;
@@ -302,7 +289,6 @@ a:visited {
   src: url("../font/menu-icon.eot?ctwrx0#iefix") format("embedded-opentype"), url("../font/menu-icon.ttf?ctwrx0") format("truetype"), url("../font/menu-icon.woff?ctwrx0") format("woff"), url("../font/menu-icon.svg?ctwrx0#menu-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'menu-icon' !important;
@@ -325,7 +311,6 @@ a:visited {
   src: url("../font/rezume-icon.eot?h2gwqs#iefix") format("embedded-opentype"), url("../font/rezume-icon.ttf?h2gwqs") format("truetype"), url("../font/rezume-icon.woff?h2gwqs") format("woff"), url("../font/rezume-icon.svg?h2gwqs#rezume-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'rezume-icon' !important;
@@ -348,7 +333,6 @@ a:visited {
   src: url("../font/linkedin-icon.eot?myeml#iefix") format("embedded-opentype"), url("../font/linkedin-icon.ttf?myeml") format("truetype"), url("../font/linkedin-icon.woff?myeml") format("woff"), url("../font/linkedin-icon.svg?myeml#linkedin-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'linkedin-icon' !important;
@@ -482,7 +466,6 @@ a:visited {
   to {
     transform: translateY(50px);
     color: #008ec1; } }
-
 .popup {
   position: absolute;
   top: 0;
@@ -630,27 +613,21 @@ a.tools__link {
 .text-color_pink {
   color: #C6538C;
   font-size: 1.5em; }
-
 .text-color_purpure {
   color: #E84C50;
   font-size: 1.5em; }
-
 .text-color_orange {
   color: #ffaa00;
   font-size: 1.5em; }
-
 .text-color_violet {
   color: #8e00cc;
   font-size: 1.5em; }
-
 .text-color_red {
   color: red;
   font-size: 1.5em; }
-
 .text-color_gray {
   color: #9e9e9e;
   font-size: 1.5em; }
-
 .text-color_white {
   color: #fff;
   font-size: 1.5em; }
@@ -850,6 +827,7 @@ a.to-top {
 @media screen and (min-width: 1345px) and (max-width: 1440px) {
   .section-heading {
     font-size: 3em; }
+
   /*HEAD*/
   .autor {
     margin-top: 20px;
@@ -862,19 +840,23 @@ a.to-top {
     .autor__specialisation {
       font-size: 1em;
       margin-right: 1%; }
+
   .head__nav {
     width: 15%;
     margin-top: 25px; }
+
   .menu__link {
     height: 30px;
     font-size: 0.9em;
     border-radius: 10px;
     border-width: 1px; }
+
   .popup__btn {
     font-size: 1em;
     padding: 4% 4%; }
   .popup__text {
     font-size: 0.9em; }
+
   /*HEAD*/
   /*KNOWLEDGE*/
   .skill-wrap {
@@ -884,12 +866,15 @@ a.to-top {
   .skill-hover__descript {
     font-size: 0.9em;
     letter-spacing: 0; }
+
   .skill__icon {
     font-size: 10em; }
+
   .tools__heading {
     font-size: 2em; }
   .tools__descript {
     font-size: 1em; }
+
   /*KNOWLEDGE*/
   /*MY_WORK*/
   .my-work {
@@ -899,11 +884,14 @@ a.to-top {
       font-size: 1.3em;
       padding: 1%;
       border-width: 2px; }
+
   .work__item {
     height: 270px;
     margin-bottom: 10px; }
+
   .icon-search {
     font-size: 4em; }
+
   /*MY_WORK*/
   /*ABOUT*/
   .about-descript {
@@ -911,21 +899,25 @@ a.to-top {
     .about-descript__text {
       font-size: 1em;
       letter-spacing: 1px; }
+
   .rezume-block {
     margin-top: 50px; }
+
   /*ABOUT*/
   /*FOOTER*/
   .contact-icon {
     font-size: 2em; }
+
   .rights {
     font-size: 1.5em; }
+
   /*FOOTER*/
   .icon-arrow-up {
     font-size: 1em; } }
-
 @media screen and (min-width: 1024px) and (max-width: 1285px) {
   .section-heading {
     font-size: 3em; }
+
   /*HEAD*/
   .autor {
     margin-top: 20px;
@@ -938,14 +930,17 @@ a.to-top {
     .autor__specialisation {
       font-size: 0.9em;
       margin-right: 1%; }
+
   .head__nav {
     width: 15%;
     margin-top: 25px; }
+
   .menu__link {
     height: 30px;
     font-size: 0.8em;
     border-radius: 10px;
     border-width: 1px; }
+
   .popup {
     width: 40%; }
     .popup__btn {
@@ -953,6 +948,7 @@ a.to-top {
       padding: 4% 4%; }
     .popup__text {
       font-size: 0.9em; }
+
   /*HEAD*/
   /*KNOWLEDGE*/
   .skill-wrap {
@@ -962,15 +958,19 @@ a.to-top {
   .skill-hover__descript {
     font-size: 0.9em;
     letter-spacing: 0; }
+
   .skill__icon {
     font-size: 10em; }
+
   .l-tools {
     padding: 1% 0; }
+
   .tools__heading {
     font-size: 1.7em; }
   .tools__descript {
     margin: 0 4%;
     font-size: 0.9em; }
+
   /*KNOWLEDGE*/
   /*MY_WORK*/
   .my-work {
@@ -980,11 +980,14 @@ a.to-top {
       font-size: 1.3em;
       padding: 1%;
       border-width: 2px; }
+
   .work__item {
     height: 240px;
     margin-bottom: 10px; }
+
   .icon-search {
     font-size: 4em; }
+
   /*MY_WORK*/
   /*ABOUT*/
   .about-descript {
@@ -992,21 +995,25 @@ a.to-top {
     .about-descript__text {
       font-size: 0.9em;
       letter-spacing: 1px; }
+
   .rezume-block {
     margin-top: 50px; }
+
   /*ABOUT*/
   /*FOOTER*/
   .contact-icon {
     font-size: 2em; }
+
   .rights {
     font-size: 1.5em; }
+
   /*FOOTER*/
   .icon-arrow-up {
     font-size: 1em; } }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .section-heading {
     font-size: 3em; }
+
   /*HEAD*/
   .autor {
     margin-top: 20px;
@@ -1022,14 +1029,17 @@ a.to-top {
     .autor__specialisation {
       font-size: 0.9em;
       margin-right: 1%; }
+
   .head__nav {
     width: 25%;
     margin-top: 25px; }
+
   .menu__link {
     height: 30px;
     font-size: 0.8em;
     border-radius: 10px;
     border-width: 1px; }
+
   .popup {
     width: 40%; }
     .popup__btn {
@@ -1037,6 +1047,7 @@ a.to-top {
       padding: 4% 4%; }
     .popup__text {
       font-size: 0.9em; }
+
   /*HEAD*/
   /*KNOWLEDGE*/
   .skill-wrap {
@@ -1047,10 +1058,13 @@ a.to-top {
     width: 80%;
     font-size: 0.9em;
     letter-spacing: 0; }
+
   .skill__icon {
     font-size: 7em; }
+
   .l-tools {
     padding: 1% 0; }
+
   .tools {
     width: 90%;
     top: 130%; }
@@ -1059,6 +1073,7 @@ a.to-top {
     .tools__descript {
       margin: 0 4%;
       font-size: 0.9em; }
+
   /*KNOWLEDGE*/
   /*MY_WORK*/
   .my-work {
@@ -1068,11 +1083,14 @@ a.to-top {
       font-size: 1.3em;
       padding: 1%;
       border-width: 2px; }
+
   .work__item {
     height: 220px;
     margin-bottom: 10px; }
+
   .icon-search {
     font-size: 4em; }
+
   /*MY_WORK*/
   /*ABOUT*/
   .about-descript {
@@ -1081,25 +1099,30 @@ a.to-top {
     .about-descript__text {
       font-size: 0.9em;
       letter-spacing: 1px; }
+
   .rezume-block {
     margin-top: 50px; }
+
   /*ABOUT*/
   /*FOOTER*/
   .contact-icon {
     font-size: 2em; }
+
   .rights {
     font-size: 1.5em; }
+
   /*FOOTER*/
   .icon-arrow-up {
     font-size: 1em; } }
-
 @media screen and (min-width: 600px) and (max-width: 767px) {
   .section-heading {
     font-size: 3em; }
+
   /*HEAD*/
   .head {
     background-image: none;
     background-color: #fff; }
+
   .autor {
     margin-top: 9%;
     width: 90%;
@@ -1118,21 +1141,26 @@ a.to-top {
       float: right;
       font-size: 1.2em;
       margin-right: 0%; }
+
   .head__nav {
     width: 90%;
     margin: 15% auto 0 auto; }
+
   .menu__link {
     height: 70px;
     font-size: 1.2em;
     border-radius: 10px;
     border-width: 1px; }
+
   .popup {
     display: none; }
+
   /*HEAD*/
   /*KNOWLEDGE*/
   .knowledge {
     height: 900px;
     padding-bottom: 30px; }
+
   .skill-wrap {
     height: 53%; }
   .skill-hover__heading {
@@ -1141,10 +1169,13 @@ a.to-top {
     width: 80%;
     font-size: 1.2em;
     letter-spacing: 0; }
+
   .skill__icon {
     font-size: 7em; }
+
   .l-tools {
     padding: 1% 0; }
+
   .tools {
     width: 90%;
     top: 130%; }
@@ -1153,6 +1184,7 @@ a.to-top {
     .tools__descript {
       margin: 0 4%;
       font-size: 1.2em; }
+
   /*KNOWLEDGE*/
   /*MY_WORK*/
   .my-work {
@@ -1162,54 +1194,66 @@ a.to-top {
       font-size: 1.3em;
       padding: 2%;
       border-width: 2px; }
+
   .work__item {
     width: 90%;
     height: 300px;
     margin: 0 auto 10px auto; }
     .work__item:nth-child(n+4) {
       display: none; }
+
   .icon-search {
     font-size: 4em; }
+
   /*MY_WORK*/
   /*ABOUT*/
   .about {
     height: auto;
     padding-bottom: 30px; }
+
   .about-descript {
     width: 90%;
     margin-top: 4%; }
     .about-descript__text {
       font-size: 0.9em;
       letter-spacing: 1px; }
+
   .rezume-block {
     margin-top: 50px;
     width: 100%; }
+
   a.about-descript__link {
     margin-left: 5%; }
+
   .icon-profile {
     font-size: 3em; }
+
   /*ABOUT*/
   /*FOOTER*/
   .footer {
     display: block; }
+
   .contact-icon {
     width: 100%;
     font-size: 2.3em;
     margin-top: 3%; }
+
   .rights {
     margin-top: 5%;
     text-align: center;
     width: 100%;
     font-size: 1.4em; }
+
   /*FOOTER*/
   .icon-arrow-up {
     font-size: 1em; }
+
   a.to-top {
     right: 5%; } }
-
 @media screen and (min-width: 600px) and (max-width: 767px) and (min-height: 320px) and (max-height: 420px) {
   .head {
     text-align: center; }
+
   .autor {
     margin-top: 1%; }
     .autor__photo {
@@ -1222,24 +1266,28 @@ a.to-top {
       float: right;
       font-size: 0.8em;
       margin-right: 0%; }
+
   .head__nav {
     width: 50%;
     margin: 5% auto 0 24%; }
+
   .menu__link {
     height: 25px;
     font-size: 0.8em;
     border-radius: 10px;
     border-width: 1px; }
+
   a.to-top {
     right: 10%; } }
-
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .section-heading {
     font-size: 3em; }
+
   /*HEAD*/
   .head {
     background-image: none;
     background-color: #fff; }
+
   .autor {
     margin-top: 7%;
     width: 95%;
@@ -1258,21 +1306,26 @@ a.to-top {
       float: right;
       font-size: 1em;
       margin-right: 1%; }
+
   .head__nav {
     width: 90%;
     margin: 15% auto 0 auto; }
+
   .menu__link {
     height: 40px;
     font-size: 1em;
     border-radius: 10px;
     border-width: 1px; }
+
   .popup {
     display: none; }
+
   /*HEAD*/
   /*KNOWLEDGE*/
   .knowledge {
     height: 1520px;
     padding-bottom: 30px; }
+
   .skill-wrap {
     height: 53%; }
   .skill__item {
@@ -1286,10 +1339,13 @@ a.to-top {
     width: 80%;
     font-size: 1.2em;
     letter-spacing: 0; }
+
   .skill__icon {
     font-size: 7em; }
+
   .l-tools {
     padding: 1% 0; }
+
   .tools {
     width: 90%;
     top: 152%; }
@@ -1298,6 +1354,7 @@ a.to-top {
     .tools__descript {
       margin: 0 4%;
       font-size: 1.2em; }
+
   /*KNOWLEDGE*/
   /*MY_WORK*/
   .my-work {
@@ -1307,49 +1364,64 @@ a.to-top {
       font-size: 1.3em;
       padding: 2%;
       border-width: 2px; }
+
   .work__item {
     width: 90%;
     height: 250px;
     margin: 0 auto 10px auto; }
     .work__item:nth-child(n+4) {
       display: none; }
+
   .icon-search {
     font-size: 4em; }
+
   /*MY_WORK*/
   /*ABOUT*/
   .about {
     height: auto;
     padding-bottom: 30px; }
+
   .about-descript {
     width: 90%;
     margin-top: 4%; }
     .about-descript__text {
       font-size: 0.9em;
       letter-spacing: 1px; }
+
   .rezume-block {
     margin-top: 50px;
     width: 100%; }
+
   a.about-descript__link {
     margin-left: 5%; }
+
   .icon-profile {
     font-size: 3em; }
+
   /*ABOUT*/
   /*FOOTER*/
   .footer {
     display: block; }
+
   .contact-icon {
     width: 100%;
     font-size: 2.3em;
     margin-top: 3%; }
+
   .mail {
     font-size: 0.33em; }
+
   .rights {
     margin-top: 5%;
     text-align: center;
     width: 100%;
     font-size: 1em; }
+
   /*FOOTER*/
   a.to-top {
     right: 2%; }
+
   .icon-arrow-up {
     font-size: 1em; } }
+
+/*# sourceMappingURL=main.css.map */
