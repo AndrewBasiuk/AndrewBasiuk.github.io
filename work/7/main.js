@@ -6,8 +6,8 @@ $(document).ready(function() {
 	function showWeather() {
 		var input = $(".form__input").val(),
 			inputBigLetter = input.charAt(0).toUpperCase() + input.slice(1),
-			weatherFiveDays = 'http://api.openweathermap.org/data/2.5/forecast?q=' + inputBigLetter + '&appid=fc3da5f655d9b4c55ce7786120594255&units=metric',
-			weatherNow = "http://api.openweathermap.org/data/2.5/weather?q=" + inputBigLetter + "&appid=fc3da5f655d9b4c55ce7786120594255&units=metric";
+			weatherFiveDays = 'https://api.openweathermap.org/data/2.5/forecast?q=' + inputBigLetter + '&appid=fc3da5f655d9b4c55ce7786120594255&units=metric',
+			weatherNow = "https://api.openweathermap.org/data/2.5/weather?q=" + inputBigLetter + "&appid=fc3da5f655d9b4c55ce7786120594255&units=metric";
 
 		$('#weather-info__heading').text(inputBigLetter + " weather for 5 days");
 		$('.weather-info__item').remove();
