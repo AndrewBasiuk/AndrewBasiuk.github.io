@@ -1,5 +1,36 @@
 
 $(document).ready(function() {
+	// search-form animation
+	$('.head-header-search').hover(
+		function() {
+
+			$('.head-header-search__icon').css('display', 'none');
+
+
+			$('.head-form').animate(
+				{
+					width: '350px'
+				}, 500);
+			$('.head-form__input').animate(
+				{
+					width: '85%'
+				}, 500);
+		},
+
+		function() {
+			$('.head-form').animate(
+				{
+					width: '0'
+				}, 500,
+				function() {
+					$('.head-header-search__icon').css('display', 'block');
+				});
+			$('.head-form__input').animate(
+				{
+					width: '0'
+				}, 500);
+		}
+	);
 
 	// fixed top menu
 	var headNavTop = $('.head__nav').offset().top;
