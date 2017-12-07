@@ -179,7 +179,8 @@ input{
 .anchor{
 	position: absolute;
 	top: 525px;
-	left: 46%;
+	left: 50%;
+	transform: translateX(-50%);
 	width: 115px; /*115/1180*/
 	height: 115px;
 	padding-top: 40px;
@@ -209,6 +210,9 @@ input{
 	z-index: 2;
 	box-sizing: border-box;
 }
+.сontact_us_button:hover {
+	background-color: #6600db;
+}
 
 /*///////////////////////HEAD/////////////////////////////*/
 
@@ -234,7 +238,8 @@ input{
 	position: absolute;
 	top: 300px;
 	max-width: 100%; 
-	left: 33.779661%; /*375/1180*/
+	left: 50%;
+	transform: translateX(-50%);
 }
 .latest_design_heading{
 	margin-top: 110px;
@@ -360,6 +365,7 @@ input{
 	vertical-align: middle;
 }
 .design_img{
+	width: 100%;
 	max-width: 100%;
 	border-radius: 5px 5px 0 0;
 }
@@ -419,6 +425,9 @@ footer{
 	text-align: center;
 	border-radius: 5px;
 	box-sizing: border-box;
+}
+.to_top:hover {
+	opacity: 0.7;
 }
 .to_top img{
 	padding: 16px 0;
