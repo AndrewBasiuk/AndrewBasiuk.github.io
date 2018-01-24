@@ -1,0 +1,37 @@
+.popup {
+	width: 100%;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #F5F5F5;
+
+	&-menu {
+		display: flex;
+		flex-direction: column;
+
+		&__item {
+			margin-bottom: 30px;
+			text-align: center;
+
+			&:hover .popup-menu__link {
+				color: $pink;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		&__link {
+			font: 20/16*1em GothamPro-Medium, Arial, san-serif;
+			text-transform: uppercase;
+			transition: all 0.2s;
+			color: $text-main-color;
+		}
+	}
+}

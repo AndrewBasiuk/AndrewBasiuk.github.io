@@ -1,0 +1,219 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+	.head {
+		&__logo {
+			margin-right: 30%;
+		}
+
+		&__header {
+			margin-bottom: 50px;
+		}
+	}
+
+	.section-descript {
+		margin-bottom: 30px;
+	}
+
+	.menu {
+		width: 35%;
+
+		&__item {
+			margin-right: 3%;
+		}
+	}
+
+	.service {
+		padding-top: 40px;
+		margin-bottom: 30px;
+
+		&-list {
+			padding-top: 40px;
+
+			&__heading {
+				font-size: 0.8em;
+			}
+
+			&__item {
+				width: 44%;
+
+				&_borderRight::after {
+					right: -17%;
+				}
+			}
+		}
+	}
+
+	.feedback {
+		&__item {
+			width: 32%;
+		}
+
+		&__text {
+			font-size: 1em;
+		}
+
+		&-list {
+			margin-bottom: 30px;
+		}
+
+		&-button {
+			width: 18%;
+		}
+
+		&-video-wrap {
+			height: 200px;
+			margin-bottom: 45px;
+		}
+
+		&-video__video {
+			height: 175px;
+		}
+	}
+
+	.form {
+		&-wrap {
+			padding-top: 40px;
+		}
+
+		&-contact {
+			width: 40%;
+		}
+
+		&-text {
+			width: 40%;
+		}
+	}
+
+	@media screen and (max-width: 850px) {
+		
+		/*HEAD*/
+		.head {
+			padding-bottom: 40px;
+
+			&__logo {
+				margin-right: 0%;
+			}
+
+			&__heading {
+				font-size: 1.5em;
+				margin-bottom: 50px;
+
+				&::after {
+					bottom: -25px;
+					width: 30px;
+				}
+			}
+
+			&__descript {
+				font-size: 0.8em;
+				margin-bottom: 20px;
+			}
+		}
+
+		.menu {
+			width: 40%;
+		}
+
+		.man {
+			bottom: -40px;
+			width: 45%;
+		}
+		/*END___HEAD*/
+
+		/*SERVICE*/
+		.service {
+			padding-top: 40px;
+			margin-bottom: 30px;
+
+			&-list {
+				padding-top: 40px;
+
+				&__heading {
+					font-size: 0.6em;
+				}
+
+				&__item {
+					width: 47%;
+
+					&_borderRight::after {
+						display: none;
+					}
+				}
+
+				&__paragraph {
+					font-size: 0.7em;
+				}
+
+				&__icon {
+					&_doc {
+						width: 35px;
+					}
+					&_opt {
+						width: 80px;
+					}
+				}
+
+				&-about {
+					&__item {
+						font-size: 0.7em;
+					}
+				}
+			}
+		}
+		/*END___SERVICE*/
+
+
+		/*FEEDBACK*/
+		.feedback {
+			&__item {
+				width: 32%;
+			}
+
+			&__text {
+				font-size: 0.9em;
+			}
+
+			&-list {
+				margin-bottom: 30px;
+			}
+
+			&-button {
+				width: 25%;
+			}
+
+			&-video-wrap {
+				height: 150px;
+				margin-bottom: 110px;
+			}
+
+			&-video__video {
+				height: 150px;
+			}
+		}
+		/*END___FEEDBACK*/
+
+		/*FORM*/
+		.form {
+			&-wrap {
+				padding-top: 40px;
+
+				&-section__heading {
+					margin-bottom: 40px;
+				}
+
+				&-button {
+					width: 25%;
+				}
+			}
+
+			&-contact {
+				width: 40%;
+			}
+
+			&-text {
+				width: 40%;
+			}
+		}
+		/*END___FORM*/
+	}
+}

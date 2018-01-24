@@ -1,0 +1,145 @@
+.feedback {
+	position: relative;
+	padding-bottom: 55px;
+	border-bottom: 1px solid $dark-gray;
+
+	&__section-descript {
+		margin-bottom: 75px;
+	}
+
+	&-list {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 73px;
+	}
+
+	&__item {
+		width: 300/1090*100%;
+		height: 400px;
+
+		&:hover .feedback__icon-wrap {
+			color: $pink;
+		}
+
+		&:hover .feedback__author-name {
+			color: $pink;
+		}
+	}
+
+	&__icon {
+		&-wrap {
+			width: 100%;
+			font: 60/16*1em PFDinDisplayPro, Arial, san-serif;
+			color: #CACBD0;
+			line-height: 0.7;
+			display: flex;
+			align-items: flex-start;
+		} 
+	}
+
+	&__text {
+		margin-bottom: 40px;
+		font: 17/16*1em GothamPro-Regular, Arial, san-serif;
+		color: #000;
+		line-height: 1.4;
+	}
+
+	&__author-photo {
+		margin-bottom: 20px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+
+	&__author-name {
+		margin-bottom: 17px;
+		font: 13/16*1em GothamPro-Bold, Arial, san-serif;
+	}
+
+	&-video-wrap {
+		display: flex;
+		position: relative;
+		margin-top: 25px;
+		margin-bottom: 7%;
+		cursor: pointer;
+
+
+		&:hover .feedback-video__icon {
+			fill: $pink;
+		}
+	}
+
+	&-video__icon {
+		width: 10px;
+		height: 10px;
+		fill: #434343;
+		transition: all 0.3s;
+
+		&-wrap {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background-color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-self: center;
+		}
+	}
+
+	&__company {
+		font: 12/16*1em GothamPro-Regular, Arial, san-serif;
+	}
+
+	&__link {
+		position: relative;
+		margin-left: 20px;
+		font: 15/16*1em GothamPro-Bold, Arial, san-serif;
+		text-decoration: underline;
+
+		&:link {
+			text-decoration: underline;	
+		}
+
+		&:vizited {
+			text-decoration: underline;	
+		}
+
+		&::before {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: -15px;
+			content: "•";
+			color: $pink;
+		}
+	}
+
+	&-button {
+		margin: 0 auto;
+		width: 130/1090*100%;
+		display: flex;
+		align-items: center;
+		font: 11/16*1em GothamPro-Black, Arial, san-serif;
+		text-transform: uppercase;
+		cursor: pointer;
+		
+
+		&__icon {
+			width: 20px;
+			height: 20px;
+			margin-right: 10px;
+			fill: $pink;
+		}
+	}
+}
+
+.youtube-icon {
+	font-size: 1.6em;
+		color: #CACBD0;
+		line-height: 0.4;
+}
